@@ -1,0 +1,123 @@
+*{
+    color: hsl(235, 18%, 26%);
+}
+
+body{
+    background-color:  hsl(234, 29%, 20%);
+
+}
+
+.contenedor {
+    background-color: white;
+    display: flex;
+    border-radius: 30px;
+}
+
+
+#titulo{
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    margin: 15px;
+    margin-top: 50px;
+
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 25px;
+    margin-left: 15px;
+    
+ 
+    font-size: 16px;
+}
+.img{
+    margin: 10px;
+}
+
+li{
+    margin-top: 20px;
+    list-style-image: url(../assets/images/icon-list.svg);
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;;
+}
+
+.subtitulo{
+    margin-left: 5px;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+input{
+    margin-left: 15px;
+    width: 85%;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.btn{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    width: 85%;
+    height: 50px;
+    border-radius: 10px;
+    background-color:hsl(234, 29%, 20%) ;
+}
+
+.btn:hover{
+    background-color: hsl(4, 100%, 67%);
+}
+
+.mensajeerror{
+    color: red;
+    margin-left: 15px;
+}
+
+
+.containerenviodos{
+    margin-top: 15px;
+}
+
+.imgverificacion{
+    margin-left: 15px;
+}
+
+.tituloenvio{
+    margin-top: 25px;
+    margin-left: 15px;
+    font-size: 47px;
+}
+
+.mainenvio{
+    display: block;
+}
+
+.parrafoconfirmacion{
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+}
+
+.botonenvio{
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 15px;
+    background-color: tomato;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+#img-container{
+    display: flex;
+    align-items: center;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
